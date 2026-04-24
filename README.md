@@ -28,19 +28,13 @@ Allows faculty to enter username and password
 Includes password visibility toggle
 Redirects to allocation options page
 
-📄 File:
-
 2. Allocation Options Page
 Displays university logo
 Provides navigation to room allocation
 
-📄 File:
-
-3. Student Allocation Page
+4. Student Allocation Page
 Takes student PRN and division
 Used for assigning students to exam halls
-
-📄 File:
 
 4. Room Allocation Page
 Input:
@@ -48,17 +42,13 @@ Room Number
 Number of Benches
 Seating Arrangement
 Validation:
-Only multiples of 10 allowed for room numbers
-
-📄 File:
+Only multiples of 10 allowed for room numbee
 
 🎨 UI Design
 Responsive layout for mobile & desktop
 Background overlay with gradient effect
 Clean card-based UI
 Smooth hover effects on buttons
-
-📄 Example styling:
 
 🛠️ Technologies Used
 HTML5
