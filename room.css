@@ -1,0 +1,65 @@
+body {
+  font-family: Arial, sans-serif;
+
+  background:
+    linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url("https://image2url.com/r2/default/images/1770616024163-f7b27cc5-82fd-4ddc-8a92-41f3b622df78.png")
+      no-repeat center center fixed;
+
+  background-size: cover;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.room-box {
+  width: 90%;
+  max-width: 420px;
+  padding: 35px;
+  background: rgba(255, 255, 255, 0.95);
+  border-radius: 20px;
+  text-align: center;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.35);
+}
+
+h1 {
+  margin-bottom: 20px;
+}
+
+.input-group {
+  text-align: left;
+  margin-bottom: 15px;
+}
+
+.input-group label {
+  font-weight: 600;
+  display: block;
+  margin-bottom: 5px;
+}
+
+.input-group input,
+.input-group select {
+  width: 100%;
+  padding: 12px;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  font-size: 15px;
+}
+
+.generate-btn {
+  width: 100%;
+  padding: 14px;
+  margin-top: 15px;
+  font-size: 18px;
+  font-weight: bold;
+  color: white;
+  background: #dc2626;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+}
+
+.generate-btn:hover {
+  background: #b91c1c;
+}
